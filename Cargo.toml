@@ -1,0 +1,11 @@
+[package]
+name = "rotary-embedding-tch"
+version = "1.0.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.80"
+einops = { git = "https://github.com/VasanthakumarV/einops.git", version = "0.3.0-alpha.2" }
+lazy_static = "1.4.0"
+ndarray = "0.15.6"
+tch = "0.15"
